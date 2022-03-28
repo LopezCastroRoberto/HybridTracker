@@ -54,7 +54,8 @@ python setup.py install
 ### Training
 1. Create an empty folder called ```images``` with two sub-folders: ```train``` and ```test```.
 2. [Label your images](https://github.com/tzutalin/labelImg) or divide your already labeled ones into ```train``` and ```test``` folders. A common strategy is to put 80% of them into the ```train``` directory and the rest to the ```test```one. Your labeled data must be placed outside ```train``` and ```test```, in ```images```.
-2.1. If your labeled data is in ```.xml``` format it must be translated to ```.csv```. Change directory to ```object detection``` and execute:
+
+ 2.1. If your labeled data is in ```.xml``` format it must be translated to ```.csv```. Change directory to ```object detection``` and execute:
 ```
 python xml_to_csv.py
 ```
