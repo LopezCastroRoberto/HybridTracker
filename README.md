@@ -20,7 +20,7 @@ git clone https://github.com/tensorflow/models.git
 * Clone this repository and move the content of the ```object_detection``` folder to ```tensorflow/models/research/object_detection/```
 
 ```
-git clone git@github.com:LopezCastroRoberto/HybridTracker.git
+git clone git@github.com:UDC-GAC/HybridTracker.git
 mv HybridTracker/object_detection/* tensorflow/models/research/object_detection/
 ``` 
 
